@@ -167,6 +167,7 @@ class EqulGUI:
         time.sleep(STEP_INTERVAL)
         pg.click(located)
         time.sleep(STEP_INTERVAL)
+        secure_enters()
         wait_for_excel()
         time.sleep(STEP_INTERVAL)
         save()
