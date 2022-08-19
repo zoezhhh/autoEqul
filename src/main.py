@@ -3,6 +3,8 @@ from equl import *
 
 data = read_input()
 
+print(data.iloc[0])
+
 start = int(input("Start from Test Case #"))
 end = int(input("End at Test Case #")) + 1
 test_cases_to_complete = range(start, end)
@@ -19,7 +21,7 @@ for i in test_cases_to_complete:
 
     print(f"Auto completing Test Case {i}...")
 
-    row_data = data.iloc[i]
+    row_data = data.iloc[i-1]
 
     equlGUI.focus_window()
     equlGUI.auto_complete(row_data)
