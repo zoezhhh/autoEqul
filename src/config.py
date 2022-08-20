@@ -14,10 +14,10 @@ INPUT_FILE = r"R:\SALESAPP\Explainer Tool\UL\Excel Tool\Testing\Zoe\Test Cases V
 INPUT_SHEET = "Sheet1"
 
 # path to the saved NIS file
-SAVED_NIS = r"R:\SALESAPP\Explainer Tool\UL\Excel Tool\Testing\Zoe\Python tool\Test Cases NIS\equl.NIS"
+SAVED_NIS = r"\\eusers.equitable.int\desktops$\zzhu\Documents\equl.NIS"
 
 # path to the exported Excel file
-EXPORTED_EXCEL = r"R:\SALESAPP\Explainer Tool\UL\Excel Tool\Testing\Zoe\Python tool\Test Cases Excel\equl.xls"
+EXPORTED_EXCEL = r"C:\Users\zzhu\AppData\Local\Temp\equl.xls"
 
 # path to the working folder
 WORKSPACE = "generated"
